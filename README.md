@@ -29,6 +29,8 @@ OnEraseBkgnd(CDC* pDC)：怪不得之前老在闪，原来是默认开启擦除�
 textBox.h与textBox.cpp：文本框管理，因为刚开始写的时候不太熟悉运行机制，现在感觉这个数据结构真的有够烂的
 类Text
 
+
+
 类TextBox
 
 
@@ -44,3 +46,5 @@ utils.h与utils.cpp：一些工具函数不知道放哪就创建一个文件丢�
 
 
 pulley.h与pulley.cpp：滑轮组件，后面加的所以感觉好像应该没什么问题，而且也是比较简单实现的一个小东西
+
+类Pulley
