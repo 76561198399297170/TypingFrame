@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\main">
+      <UniqueIdentifier>{139c877c-8eee-4081-a3ab-31522dc303a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\main">
+      <UniqueIdentifier>{b74cbea6-3aff-49ff-bdfd-df086f1aeb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{19d52486-e8af-49ce-920c-6ab96af79d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{6e9a54c7-49e4-4800-acc9-fab04edf3522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\control">
+      <UniqueIdentifier>{15cadef4-4e44-46fc-a65f-c8749cedf8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\control">
+      <UniqueIdentifier>{c3eff059-48d8-4811-8aaf-359cb2e235cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TypingFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="myWord.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="textBox.cpp">
+      <Filter>源文件\control</Filter>
+    </ClCompile>
+    <ClCompile Include="pulley.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件\main</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="myWord.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="textBox.h">
+      <Filter>头文件\control</Filter>
+    </ClInclude>
+    <ClInclude Include="TypingFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pulley.h">
+      <Filter>头文件\control</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
